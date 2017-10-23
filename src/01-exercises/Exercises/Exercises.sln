@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 -Calculator", "04 -Calcu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex5", "ex5\ex5.csproj", "{26C99593-6EB3-457B-B6E1-1BEE1BF29679}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex 6 guess a magic number jackpot", "ex 6 guess a magic number jackpot\ex 6 guess a magic number jackpot.csproj", "{3A48DAE5-3D11-43A1-8003-74C839E4E538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_excuses_print_all", "08_excuses_print_all\08_excuses_print_all.csproj", "{EAADD097-C8F9-4813-8954-D5D95B005659}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{26C99593-6EB3-457B-B6E1-1BEE1BF29679}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26C99593-6EB3-457B-B6E1-1BEE1BF29679}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26C99593-6EB3-457B-B6E1-1BEE1BF29679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A48DAE5-3D11-43A1-8003-74C839E4E538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A48DAE5-3D11-43A1-8003-74C839E4E538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A48DAE5-3D11-43A1-8003-74C839E4E538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A48DAE5-3D11-43A1-8003-74C839E4E538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAADD097-C8F9-4813-8954-D5D95B005659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAADD097-C8F9-4813-8954-D5D95B005659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAADD097-C8F9-4813-8954-D5D95B005659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAADD097-C8F9-4813-8954-D5D95B005659}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
