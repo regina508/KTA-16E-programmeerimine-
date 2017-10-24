@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-parrot repeat back", "Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 -Calculator", "04 -Calculator\04 -Calculator.csproj", "{1A177581-2371-4E30-8268-E4B0E92F0AD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex9", "ex5\ex9.csproj", "{26C99593-6EB3-457B-B6E1-1BEE1BF29679}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex9 guess a magic number", "ex5\ex9 guess a magic number.csproj", "{26C99593-6EB3-457B-B6E1-1BEE1BF29679}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex 6 guess a magic number jackpot", "ex 6 guess a magic number jackpot\ex 6 guess a magic number jackpot.csproj", "{3A48DAE5-3D11-43A1-8003-74C839E4E538}"
 EndProject

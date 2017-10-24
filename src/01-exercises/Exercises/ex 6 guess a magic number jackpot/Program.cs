@@ -31,7 +31,7 @@ namespace ex_6_guess_a_magic_number_jackpot
 
             }
 
-            if (value = magicNumber)
+            if (value == magicNumber)
             {
                 Console.WriteLine("Woot! You guessed it!");
             }
