@@ -10,7 +10,10 @@ namespace _08_excuses_print_all
     {
         static void Main(string[] args)
         {
-            string[] excuses = new[] { "Koer sõi kodutöö ära", "Ema ei luba arvutis tiksuda" };
+            Console.WriteLine("Ma olen tegemate kodutööde vabanduste genereerimise programm. Prindin kõik vabandused välja.");
+            Console.WriteLine();
+
+            string[] excuses = new[] { "Koer sõi kodutöö ära", "Ema ei luba arvutis tiksuda", "Kallasin kohvi arvutile peale", "Unustasin", "Arvuti aku läks tühjaks" };
 
             // use foreach instead
 
@@ -19,6 +22,9 @@ namespace _08_excuses_print_all
                 Console.WriteLine($"{i + 1}. {excuses[i]}");
             }
 
+            Console.WriteLine();
+
+            Console.WriteLine("Press any key to continue");
             Console.ReadLine();
         }
 
