@@ -16,15 +16,15 @@ namespace Exercise3
             Console.WriteLine();
             Console.Write("Sina ütled: ");
 
-            string input = Console.WriteLine();
+            string input = Console.ReadLine();
 
             Console.WriteLine("");
            
          
-            Console.WriteLine("Mina ütlen: ");
+            Console.WriteLine("Mina ütlen: " + input);
             Console.WriteLine("");
 
-
+            Console.WriteLine("Press any key to continue..");
 
             Console.ReadLine();
         }

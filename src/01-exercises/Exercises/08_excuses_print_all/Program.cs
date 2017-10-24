@@ -13,6 +13,7 @@ namespace _08_excuses_print_all
             string[] excuses = new[] { "Koer sõi kodutöö ära", "Ema ei luba arvutis tiksuda" };
 
             // use foreach instead
+
             for (int i = 0; i < excuses.Length; i++)
             {
                 Console.WriteLine($"{i + 1}. {excuses[i]}");
