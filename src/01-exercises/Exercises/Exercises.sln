@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-Hello-World", "ConsoleApp1\01-Hello-World.csproj", "{F212E585-160A-4EF1-89C7-623D10C7CABB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex 1 Hello-World", "ConsoleApp1\ex 1 Hello-World.csproj", "{F212E585-160A-4EF1-89C7-623D10C7CABB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Print text to console", "ConsoleApp2\02-Print text to console.csproj", "{44F63A95-8AE2-49E8-8EE1-69230B226ACF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex 2 Print text to console", "ConsoleApp2\ex 2 Print text to console.csproj", "{44F63A95-8AE2-49E8-8EE1-69230B226ACF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-parrot repeat back", "Exercise3\03-parrot repeat back.csproj", "{5A051C79-A725-4364-9555-9E7D29F620B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex 3 parrot repeat back", "Exercise3\ex 3 parrot repeat back.csproj", "{5A051C79-A725-4364-9555-9E7D29F620B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 -Calculator", "04 -Calculator\04 -Calculator.csproj", "{1A177581-2371-4E30-8268-E4B0E92F0AD4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex 4 Calculator", "04 -Calculator\ex 4 Calculator.csproj", "{1A177581-2371-4E30-8268-E4B0E92F0AD4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex9 guess a magic number", "ex5\ex9 guess a magic number.csproj", "{26C99593-6EB3-457B-B6E1-1BEE1BF29679}"
 EndProject
