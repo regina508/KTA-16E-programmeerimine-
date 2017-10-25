@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-dice-roller", "03-dice-roller\03-dice-roller.csproj", "{467A31CF-B29C-4A53-AE4B-497523EF0F9B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.1-dice-roller", "03-dice-roller\03.1-dice-roller.csproj", "{467A31CF-B29C-4A53-AE4B-497523EF0F9B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.2-dice-roller-random", "03.2-dice-roller-random\03.2-dice-roller-random.csproj", "{BECB6CC1-CFCC-414B-A051-00FE50DEB671}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.3-dice-roller-for-loop", "03.3-dice-roller-for-loop\03.3-dice-roller-for-loop.csproj", "{D8F63486-4360-4CCB-BFEB-FE2ABEB0B0DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BECB6CC1-CFCC-414B-A051-00FE50DEB671}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BECB6CC1-CFCC-414B-A051-00FE50DEB671}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BECB6CC1-CFCC-414B-A051-00FE50DEB671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F63486-4360-4CCB-BFEB-FE2ABEB0B0DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F63486-4360-4CCB-BFEB-FE2ABEB0B0DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F63486-4360-4CCB-BFEB-FE2ABEB0B0DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F63486-4360-4CCB-BFEB-FE2ABEB0B0DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

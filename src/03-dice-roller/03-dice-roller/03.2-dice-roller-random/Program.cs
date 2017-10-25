@@ -16,7 +16,7 @@ namespace _03._2_dice_roller_random
             Random number = new Random();
 
             int diceroll = number.Next(1, 6);
-            
+
             Console.WriteLine("1d6: " + diceroll);
 
 
@@ -39,4 +39,5 @@ namespace _03._2_dice_roller_random
 
             Console.ReadLine();
         }
+    }
 }
