@@ -7,7 +7,7 @@
     <ProjectGuid>{BECB6CC1-CFCC-414B-A051-00FE50DEB671}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_03._2_dice_roller_random</RootNamespace>
-    <AssemblyName>_03._2_dice_roller_random</AssemblyName>
+    <AssemblyName>03.2-dice-roller-random</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
