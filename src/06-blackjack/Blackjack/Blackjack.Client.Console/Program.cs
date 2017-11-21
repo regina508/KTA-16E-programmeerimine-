@@ -18,16 +18,16 @@ namespace Blackjack.Client.console
             Console.WriteLine("Welcome to the game of Blackjack!");
             Console.WriteLine();
 
-            var c4 = new Card("4", 'C', 4);
+            var c4 = new Card("4", Suite.Club, 4);
             c4.Hidden = false;
 
-            var h6 = new Card("6", 'H', 6);
+            var h6 = new Card("6", Suite.Heart, 6);
             h6.Hidden = false;
 
-            var s8 = new Card("8", 'S', 8);
+            var s8 = new Card("8", Suite.Spade, 8);
             s8.Hidden = false;
 
-            var dJ = new Card("J", 'D', 10);
+            var dJ = new Card("J", Suite.Diamond, 10);
 
             //4C = card.Rank + card.Suite
             //4C = card.GetDescription()
@@ -45,10 +45,10 @@ namespace Blackjack.Client.console
             Console.WriteLine("I choose: 1");
             Console.WriteLine();
 
-            var s4 = new Card("4", 'S', 4);
+            var s4 = new Card("4", Suite.Spade, 4);
             s4.Hidden = false;
 
-            var hT = new Card("T", 'H', 10);
+            var hT = new Card("T", Suite.Heart, 10);
 
             Console.WriteLine("You have been dealt: 45");
             Console.WriteLine("House has been dealt: [?]");
@@ -75,11 +75,11 @@ namespace Blackjack.Client.console
         public static string GetCardDescription(Card card)
         {
 
-            {
-                return card.Hidden "[?]" : card.Description;
+            
+                return card.Hidden ? "[?]" : card.Description;
 
 
-            }
+            
         }
     }
 }
