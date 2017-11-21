@@ -18,23 +18,24 @@ namespace Blackjack.Client.console
             Console.WriteLine("Welcome to the game of Blackjack!");
             Console.WriteLine();
 
-            var c4 = new Card("4", Suite.Club, 4);
-            c4.Hidden = false;
+            var cards = new List<Card>
+            {
+                new Card("4", Suite.Club, 4, false),
+                new Card("6", Suite.Heart, 6, false),
+                new Card("8", Suite.Spade, 8, false),
+                new Card("J", Suite.Diamond, 10, true),
+                new Card("4", Suite.Spade, 4, false),
+                new Card("T", Suite.Heart, 10, true),
+             };
 
-            var h6 = new Card("6", Suite.Heart, 6);
-            h6.Hidden = false;
-
-            var s8 = new Card("8", Suite.Spade, 8);
-            s8.Hidden = false;
-
-            var dJ = new Card("J", Suite.Diamond, 10);
+            var Deck = new Deck(cards);
 
             //4C = card.Rank + card.Suite
             //4C = card.GetDescription()
             //4C = card.Description
 
-            Console.WriteLine($"You have been dealt: {GetCardDescription(c4)}, {GetCardDescription(h6)}");
-            Console.WriteLine($"House has been dealt: {GetCardDescription(s8)}, {GetCardDescription(dJ)} ");
+            Console.WriteLine($"You have been dealt: {GetCardDescription(Deck.Next())}, {GetCardDescription(Deck.Next())}");
+            Console.WriteLine($"House has been dealt: {GetCardDescription(Deck.Next())}, {GetCardDescription(Deck.Next())}");
             Console.WriteLine();
 
 
@@ -45,10 +46,8 @@ namespace Blackjack.Client.console
             Console.WriteLine("I choose: 1");
             Console.WriteLine();
 
-            var s4 = new Card("4", Suite.Spade, 4);
-            s4.Hidden = false;
-
-            var hT = new Card("T", Suite.Heart, 10);
+            //var s4 = new Card("4", Suite.Spade, 4, false);
+            //var hT = new Card("T", Suite.Heart, 10, true);
 
             Console.WriteLine("You have been dealt: 45");
             Console.WriteLine("House has been dealt: [?]");
@@ -68,17 +67,12 @@ namespace Blackjack.Client.console
             Console.ReadKey();
         }
 
-
-
-
+        
 
         public static string GetCardDescription(Card card)
         {
-
-            
+           
                 return card.Hidden ? "[?]" : card.Description;
-
-
             
         }
     }
