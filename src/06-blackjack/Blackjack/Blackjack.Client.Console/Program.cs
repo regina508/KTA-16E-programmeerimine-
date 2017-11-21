@@ -6,17 +6,29 @@ using System.Threading.Tasks;
 
 namespace Blackjack.Client.console
 {
+    using System;
+    using Blackjack.Core;
+
     public class Program
     {
         public static void Main(string[] args)
             //All aces are 11 points. In real life, one can choose whether it is 1 or 11
-            //When user draws a card, house always draws one as-well. In real life, house can decide to take card or not
+            //When user draws a card, house always draws one as-well. In real life, house can decide based on some rule
         {
             Console.WriteLine("Welcome to the game of Blackjack!");
             Console.WriteLine();
 
-            Console.WriteLine("You have been dealt: 4C, 6H");
-            Console.WriteLine("House has been dealt: 8S, [?] ");
+            var c4 = new Card("4", 'C', 4);
+            var h6 = new Card("6", 'H', 6);
+            var s8 = new Card("8", 'S', 8);
+            var dJ = new Card("J", 'D', 10);
+
+            //4C = card.Rank + card.Suite
+            //4C = card.GetDescription()
+            //4C = card.Description
+
+            Console.WriteLine($"You have been dealt: {c4.Description}, {h6.Description}");
+            Console.WriteLine($"House has been dealt: {s8.Description}, {(dJ.Hidden ? "[?]" : dJ.Description)} ");
             Console.WriteLine();
 
 
