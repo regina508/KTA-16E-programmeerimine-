@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.1-dice-roller", "03-dice-roller\03.1-dice-roller.csproj", "{467A31CF-B29C-4A53-AE4B-497523EF0F9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.2-dice-roller-random", "03.2-dice-roller-random\03.2-dice-roller-random.csproj", "{BECB6CC1-CFCC-414B-A051-00FE50DEB671}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.3-dice-roller-for-loop", "03.3-dice-roller-for-loop\03.3-dice-roller-for-loop.csproj", "{D8F63486-4360-4CCB-BFEB-FE2ABEB0B0DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.4-dice-roll", "03.4-dice-roll\03.4-dice-roll.csproj", "{6CEA8C64-A0FB-41C1-ADC8-9A5FD6207D9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AA8EE38B-E457-4457-A98A-0BD65AE1D2F5}"
+	ProjectSection(SolutionItems) = preProject
+		Dice.cs = Dice.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.5-dice-roller-sides", "03.5-dice-roller-sides\03.5-dice-roller-sides.csproj", "{D672B07A-0B0C-4A52-9EAE-80F4EC78B14D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{467A31CF-B29C-4A53-AE4B-497523EF0F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{467A31CF-B29C-4A53-AE4B-497523EF0F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{467A31CF-B29C-4A53-AE4B-497523EF0F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{467A31CF-B29C-4A53-AE4B-497523EF0F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BECB6CC1-CFCC-414B-A051-00FE50DEB671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BECB6CC1-CFCC-414B-A051-00FE50DEB671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BECB6CC1-CFCC-414B-A051-00FE50DEB671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BECB6CC1-CFCC-414B-A051-00FE50DEB671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F63486-4360-4CCB-BFEB-FE2ABEB0B0DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F63486-4360-4CCB-BFEB-FE2ABEB0B0DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F63486-4360-4CCB-BFEB-FE2ABEB0B0DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F63486-4360-4CCB-BFEB-FE2ABEB0B0DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CEA8C64-A0FB-41C1-ADC8-9A5FD6207D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CEA8C64-A0FB-41C1-ADC8-9A5FD6207D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CEA8C64-A0FB-41C1-ADC8-9A5FD6207D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CEA8C64-A0FB-41C1-ADC8-9A5FD6207D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D672B07A-0B0C-4A52-9EAE-80F4EC78B14D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D672B07A-0B0C-4A52-9EAE-80F4EC78B14D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D672B07A-0B0C-4A52-9EAE-80F4EC78B14D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D672B07A-0B0C-4A52-9EAE-80F4EC78B14D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C9FA94A-CA99-42A2-9F77-B0EA324F61E2}
+	EndGlobalSection
+EndGlobal
