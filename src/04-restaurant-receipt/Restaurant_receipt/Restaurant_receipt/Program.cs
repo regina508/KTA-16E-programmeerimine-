@@ -17,6 +17,7 @@ namespace Restaurant_receipt
             var items = new List<Items>();
 
             while (true)
+
             {
                 Console.Write("Enter price of food item [-5 to quit]:");
                 Console.WriteLine();
