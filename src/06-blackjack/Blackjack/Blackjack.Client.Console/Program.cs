@@ -23,14 +23,14 @@ namespace Blackjack.Client.console
             var player = new Player();
             var dealer = new Dealer();
 
-            //Player and dealer both get 2 cards
+           
             deck.Deal(player.PlayerHand);
             deck.Deal(player.PlayerHand);
             deck.Deal(dealer.DealerHand);
             deck.Deal(dealer.DealerHand);
 
 
-            //Ask player if he want to take another card or not            
+                     
             while (true)
             {
                 if (player.PlayerHand.ShowPoints() > 21)
